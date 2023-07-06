@@ -83,22 +83,22 @@ h1 {font-family: 'Lato';}
 	}
 
 	a:hover, a:active {
-	  background-color: var(--main-bg-color);
+	  background-color: transparent;
  	  color: var(--main-color);
 	  text-decoration: underline;
 	}
 
 	.button {
-	background-color: var(--main-bg-color);
+	background-color: transparent;
   	color: var(--main-color);
   	padding: 10px 20px;
 	border: 2px solid var(--main-color);
-	border-radius: 15px;
+	border-radius: 20px;
 	text-decoration: none;
 	}
 
 	.button:hover {
-  	  background-color: var(--main-bg-color);
+  	  background-color: transparent;
 	}
 
 	.footer {
