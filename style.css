@@ -17,6 +17,7 @@
 :root {
 	--main-bg-color: #00000f;
 	--main-color: #23daeb;
+	--link-color: #7fffff;
 }
 
 h1 {font-family: 'Lato';}
@@ -82,12 +83,12 @@ h1 {font-family: 'Lato';}
   	  }
 
 	a:link {
- 	  color: aquamarine;
+ 	  color: var(--link-color);
 	  text-decoration: none;
 	}
 
 	a:visited {
-	  color: aquamarine;
+	  color: var(--link-color);
 	  text-decoration: none;
 	}
 
