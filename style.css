@@ -90,7 +90,7 @@ h1 {font-family: 'Lato';}
 	  text-decoration: none;
 	}
 
-	a:hover, a:active {
+	a:hover {
 	  background-color: transparent;
  	  color: var(--main-color);
 	  text-decoration: underline;
