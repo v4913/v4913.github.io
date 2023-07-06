@@ -120,5 +120,5 @@ h1 {font-family: 'Lato';}
 	}
 
 	.invert_effect {
-            filter: invert(50%);
+            filter: invert(25%);
         }
