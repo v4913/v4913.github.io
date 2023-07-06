@@ -61,3 +61,15 @@ h1 {font-family: 'Lato';}
 	  background-color: #0000ff;
  	 color: white;
 	}
+
+	.button {
+	background-color: #00ffff;
+  	color: white;
+  	padding: 15px 25px;
+	border: 2px solid white;
+	text-decoration: none;
+	}
+
+	.button:hover {
+  	background-color: #ff0000;
+	}
