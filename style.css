@@ -118,3 +118,7 @@ h1 {font-family: 'Lato';}
   	text-align: center;
 	margin-bottom: 20px;
 	}
+
+	.invert_effect {
+            filter: invert(50%);
+        }
