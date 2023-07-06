@@ -107,12 +107,12 @@ h1 {font-family: 'Lato';}
   	color: var(--main-color);
   	padding: 10px 20px;
 	border: 2px solid var(--main-color);
-	border-radius: 22px;
+	border-radius: 5px;
 	text-decoration: none;
 	}
 
 	.button:hover {
-  	  background-color: transparent;
+  	  background-color: var(--main-color);
 	}
 
 	.footer {
