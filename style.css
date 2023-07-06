@@ -43,6 +43,7 @@ h1 {font-family: 'Lato';}
 	font-family: 'Lato';
 	font-size: 15pt;
 	margin-bottom: 100px;
+	display: flex;
 	}
 
 	.example {  
@@ -74,12 +75,12 @@ h1 {font-family: 'Lato';}
 	}
 
 	a:link {
- 	  color: #00ffff;
+ 	  color: #0000ff;
 	  text-decoration: none;
 	}
 
 	a:visited {
-	  color: #00ffff;
+	  color: #0000ff;
 	  text-decoration: none;
 	}
 
