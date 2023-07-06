@@ -43,6 +43,7 @@ h1 {font-family: 'Lato';}
 	font-family: 'Lato';
 	font-size: 15pt;
 	margin-bottom: 100px;
+	position: relative;
 	}
 
 	.example {  
@@ -103,7 +104,7 @@ h1 {font-family: 'Lato';}
 	}
 
 	.footer {
-	position: relative;
+	position: absolute;
   	left: 0;
   	bottom: 0;
   	width: 100%;
