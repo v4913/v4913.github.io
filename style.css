@@ -46,15 +46,16 @@ h1 {font-family: 'Lato';}
 	}
 
 	a:link, a:visited {
-  	background-color: #00000f;
-  	color: white;
-  	padding: 14px 25px;
-	border: 2px solid powderblue;
-  	text-align: center;
-  	text-decoration: none;
-  	display: inline-block;
+ 	 background-color: #00000f;
+	  color: black;
+ 	 border: 2px solid white;
+	  padding: 10px 20px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
 	}
 
 	a:hover, a:active {
- 	 background-color: #0000ff;
+	  background-color: #0000ff;
+ 	 color: white;
 	}
