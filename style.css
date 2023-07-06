@@ -39,6 +39,11 @@ h1 {font-family: 'Lato';}
 	background-attachment:fixed;
 	}
 
+	side {
+		background-image: url("https://raw.githubusercontent.com/unity858/sundry/main/photography/Blank_BG.webp");
+		background-size: cover;
+	}
+	
 	body {
 	font-family: 'Lato';
 	font-size: 15pt;
