@@ -73,14 +73,14 @@ h1 {font-family: 'Lato';}
   	  }
 	}
 
-	a:link, a:visited {
- 	 background-color: var(--main-bg-color);
-	  color: black;
- 	 border: 2px solid var(--main-color);
-	  padding: 10px 20px;
-	  text-align: center;
+	a:link {
+ 	  color: var(--main-color);
 	  text-decoration: none;
-	  display: inline-block;
+	}
+
+	a:visited {
+	  color: var(--main-color);
+	  text-decoration: none;
 	}
 
 	a:hover, a:active {
