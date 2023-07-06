@@ -21,7 +21,7 @@ h1 {font-family: 'Lato';}
 	margin: auto;
 	}
 	html {
-   	 color: #0000ff;
+   	 color: springgreen;
 	/** background-image: url("https://raw.githubusercontent.com/unity858/sundry/main/photography/Blank_BG.webp");
 	background-size: cover; **/
 	background-color: #00000f;
@@ -39,11 +39,11 @@ h1 {font-family: 'Lato';}
 	}
     
   	  a.nav {
-        color: #0000ff;
+        color: springgreen;
   	  }
 
   	  a.nav:visited {
-        color: #0000ff;
+        color: springgreen;
   	  }
 	}
 
@@ -63,13 +63,14 @@ h1 {font-family: 'Lato';}
 	}
 
 	.button {
-	background-color: #00ffff;
-  	color: white;
+	background-color: transparent;
+  	color: springgreen;
   	padding: 15px 25px;
-	border: 2px solid white;
+	border: 2px solid springgreen;
+	border-radius: 5px;
 	text-decoration: none;
 	}
 
 	.button:hover {
-  	background-color: #ff0000;
+  	background-color: black;
 	}
