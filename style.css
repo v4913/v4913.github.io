@@ -67,10 +67,10 @@ h1 {font-family: 'Lato';}
   	color: springgreen;
   	padding: 15px 25px;
 	border: 2px solid springgreen;
-	border-radius: 5px;
+	border-radius: 10px;
 	text-decoration: none;
 	}
 
 	.button:hover {
-  	background-color: black;
+  	background-color: transparent;
 	}
