@@ -44,12 +44,19 @@ h1 {font-family: 'Lato';}
 	font-size: 15pt;
 	}
 
-   	body {
-     	overflow: scroll;
-   	}
+	.example {  
+	overflow-y: scroll; /* Add the ability to scroll */
+	}
 
-	body {
-  	overflow: hidden; /* Hide scrollbars */
+	/* Hide scrollbar for Chrome, Safari and Opera */
+	.example::-webkit-scrollbar {
+    	display: none;
+	}
+
+	/* Hide scrollbar for IE, Edge and Firefox */
+	.example {
+  	-ms-overflow-style: none;  /* IE and Edge */
+  	scrollbar-width: none;  /* Firefox */
 	}
 
 	a.nav-home {
