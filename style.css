@@ -73,12 +73,13 @@ h1 {font-family: 'Lato';}
     
   	  a.nav {
         color: var(--main-color);
+	text-decoration: none;
   	  }
 
   	  a.nav:visited {
         color: var(--main-color);
+	text-decoration: none;
   	  }
-	}
 
 	a:link {
  	  color: aquamarine;
@@ -129,6 +130,8 @@ h1 {font-family: 'Lato';}
         }
 
 	.center {
+	display: block;
   	margin-left: auto;
  	margin-right: auto;
+	width: 500px;
 	}
