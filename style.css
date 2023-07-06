@@ -14,6 +14,11 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+:root {
+	--main-bg-color: #00000f;
+	--main-color: springgreen;
+}
+
 h1 {font-family: 'Lato';}
 	html {
 	font-family: 'Lato';
@@ -21,10 +26,10 @@ h1 {font-family: 'Lato';}
 	margin: auto;
 	}
 	html {
-   	 color: springgreen;
+   	 color: var(--main-color);
 	/** background-image: url("https://raw.githubusercontent.com/unity858/sundry/main/photography/Blank_BG.webp");
 	background-size: cover; **/
-	background-color: #00000f;
+	background-color: var(--main-bg-color);
 	opacity: 1.0;
 	background-attachment:fixed;
 	}
@@ -39,18 +44,18 @@ h1 {font-family: 'Lato';}
 	}
     
   	  a.nav {
-        color: springgreen;
+        color: var(--main-color);
   	  }
 
   	  a.nav:visited {
-        color: springgreen;
+        color: var(--main-color);
   	  }
 	}
 
 	a:link, a:visited {
- 	 background-color: #00000f;
+ 	 background-color: var(--main-bg-color);
 	  color: black;
- 	 border: 2px solid white;
+ 	 border: 2px solid var(--main-color);
 	  padding: 10px 20px;
 	  text-align: center;
 	  text-decoration: none;
@@ -58,19 +63,19 @@ h1 {font-family: 'Lato';}
 	}
 
 	a:hover, a:active {
-	  background-color: #0000ff;
+	  background-color: var(--main-bg-color);
  	 color: white;
 	}
 
 	.button {
-	background-color: transparent;
-  	color: springgreen;
-  	padding: 15px 25px;
-	border: 2px solid springgreen;
+	background-color: var(--main-bg-color);
+  	color: var(--main-color);
+  	padding: 10px 20px;
+	border: 2px solid var(--main-color);
 	border-radius: 10px;
 	text-decoration: none;
 	}
 
 	.button:hover {
-  	background-color: transparent;
+  	background-color: var(--main-bg-color);
 	}
