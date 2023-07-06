@@ -49,6 +49,7 @@ h1 {font-family: 'Lato';}
   	background-color: #00000f;
   	color: white;
   	padding: 14px 25px;
+	border: 2px solid powderblue;
   	text-align: center;
   	text-decoration: none;
   	display: inline-block;
