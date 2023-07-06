@@ -26,10 +26,6 @@ h1 {font-family: 'Lato';}
 	}
 
 	html {
-  	scroll-behavior: smooth;
-	}
-
-	html {
 	font-family: 'Lato';
 	max-width: 800px;
 	margin: auto;
@@ -46,6 +42,14 @@ h1 {font-family: 'Lato';}
 	body {
 	font-family: 'Lato';
 	font-size: 15pt;
+	}
+
+   	body {
+     	overflow: scroll;
+   	}
+
+	body {
+  	overflow: hidden; /* Hide scrollbars */
 	}
 
 	a.nav-home {
