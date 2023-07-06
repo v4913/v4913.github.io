@@ -74,12 +74,12 @@ h1 {font-family: 'Lato';}
 	}
 
 	a:link {
- 	  color: var(--main-color);
+ 	  color: #00ffff;
 	  text-decoration: none;
 	}
 
 	a:visited {
-	  color: var(--main-color);
+	  color: #00ffff;
 	  text-decoration: none;
 	}
 
