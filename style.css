@@ -124,6 +124,8 @@ h1 {font-family: 'Lato';}
 	margin-bottom: 0px;
 	}
 
+	.footer a::before{content:"(";} .footer a::after{content:")";}
+
 	.invert_effect {
             filter: invert(20%);
         }
