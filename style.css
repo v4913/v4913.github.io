@@ -33,7 +33,7 @@ h1 {font-family: 'Lato';}
 	margin: auto;
 	}
 	html {
-   	color: var(--main-color);
+   	/**color: var(--main-color);**/
 	background-image: url("https://v4913.github.io/blankdark2.png");
 	background-size: cover;
 	background-color: var(--main-bg-color);
@@ -41,10 +41,7 @@ h1 {font-family: 'Lato';}
 	background-attachment:fixed;
 	}
 
-	/**side {
-		background-image: url("https://raw.githubusercontent.com/unity858/sundry/main/photography/Blank_BG.webp");
-		background-size: cover;
-	}**/
+	body{color:white;} h1,h2,h3 {color:var(--main-color);}
 	
 	body {
 	font-family: 'Lato';
