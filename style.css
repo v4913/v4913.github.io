@@ -42,7 +42,7 @@ h1 {font-family: 'Lato';}
 	background-attachment:fixed;
 	}
 
-	body{color:var(--link-color);} h1,h2,h3 {color:var(--main-color);}
+	body{color: #afffff;} h1,h2,h3 {color:var(--main-color);}
 	
 	body {
 	font-family: 'Lato';
