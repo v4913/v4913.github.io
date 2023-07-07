@@ -18,7 +18,7 @@
 	--main-bg-color: #00000f;
 	--main-color: #23daeb;
 	/**--link-color: #afffff;**/
-	--link-color: #23daeb;
+	--link-color: white;
 }
 
 h1 {font-family: 'Lato';}
@@ -42,7 +42,7 @@ h1 {font-family: 'Lato';}
 	background-attachment:fixed;
 	}
 
-	body{color:white;} h1,h2,h3 {color:var(--main-color);}
+	body{color:var(--link-color);} h1,h2,h3 {color:var(--main-color);}
 	
 	body {
 	font-family: 'Lato';
