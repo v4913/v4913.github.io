@@ -122,7 +122,8 @@ h1 {font-family: 'Lato';}
   	width: 100%;
   	background-color: transparent;
   	color: var(--main-color);
-  	text-align: left;
+  	text-align: center;
+	font-size: 10pt;
 	margin-bottom: 0px;
 	}
 
