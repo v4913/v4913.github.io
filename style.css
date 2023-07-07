@@ -17,7 +17,8 @@
 :root {
 	--main-bg-color: #00000f;
 	--main-color: #23daeb;
-	--link-color: #afffff;
+	/**--link-color: #afffff;**/
+	--link-color: #0000ff;
 }
 
 h1 {font-family: 'Lato';}
