@@ -123,7 +123,7 @@ h1 {font-family: 'Lato';}
   	background-color: transparent;
   	color: var(--main-color);
   	text-align: center;
-	margin-bottom: 2px;
+	margin-bottom: 1px;
 	}
 
 	.invert_effect {
