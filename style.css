@@ -39,8 +39,7 @@ h1 {font-family: 'Ubuntu';}
 	background-color: var(--main-bg-color);
 	background-repeat: repeat-y;
 	opacity: 1.0;
-	background-attachment: scroll;
-	background-position: top center;
+	background-attachment: fixed;
 	}
 
 	body{color: white;} h1,h2,h3 {color:var(--main-color);}
