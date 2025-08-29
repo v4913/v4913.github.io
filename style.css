@@ -20,6 +20,13 @@
 	--link-color: #fc9fda;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;  /* at least full viewport height */
+}
+
 h1 {font-family: 'Ubuntu';}
 
 	header {
@@ -36,10 +43,10 @@ h1 {font-family: 'Ubuntu';}
 	html {
    	/**color: var(--main-color);**/
 	background-image: url("https://v4913.github.io/NCS-Dreams.png");
-	background-attachment: scroll;
-    background-repeat: repeat-y;
-    background-position: top center;
-    background-size: 100% auto;
+  	background-repeat: repeat-y;      /* repeat vertically */
+  	background-position: top center;  /* center horizontally */
+  	background-size: 100% auto;       /* stretch width, keep aspect ratio */
+  	background-attachment: scroll;    /* scrolls normally with the page */
 	background-color: var(--main-bg-color);
 	opacity: 1.0;
 	}
@@ -52,16 +59,6 @@ h1 {font-family: 'Ubuntu';}
 	margin-bottom: 100px;
 	position: relative;
 	text-align: center;
-	}
-
-	.bg {
-  	position: fixed;
-  	top: 0; left: 0;
-  	width: 100vw;
-  	height: 100vh;
-  	background: url("https://v4913.github.io/NCS-Dreams.png") no-repeat top center;
-  	background-size: 100% auto;
-  	z-index: -1;
 	}
 
 	.example {  
