@@ -15,9 +15,9 @@
 }**/
 
 :root {
-	--main-bg-color: #00f000;
-	--main-color: #eb23d7;
-	--link-color: white;
+	--main-bg-color: #0f0000;
+	--main-color: #eb2391;
+	--link-color: #fc9fda;
 }
 
 h1 {font-family: 'Ubuntu';}
@@ -37,11 +37,11 @@ h1 {font-family: 'Ubuntu';}
 	background-image: url("https://v4913.github.io/NCS-Dreams.png");
 	background-size: cover;
 	background-color: var(--main-bg-color);
-	opacity: 0.8;
+	opacity: 0.9;
 	background-attachment:fixed;
 	}
 
-	body{color: #fc9fda;} h1,h2,h3 {color:var(--main-color);}
+	body{color: white;} h1,h2,h3 {color:var(--main-color);}
 	
 	body {
 	font-family: 'Ubuntu';
