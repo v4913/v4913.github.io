@@ -39,7 +39,7 @@ h1 {font-family: 'Ubuntu';}
 	background-color: var(--main-bg-color);
 	background-repeat: repeat-y;
 	opacity: 1.0;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	}
 
 	body{color: white;} h1,h2,h3 {color:var(--main-color);}
@@ -109,9 +109,9 @@ h1 {font-family: 'Ubuntu';}
 	text-decoration: none;
 	}
 
-	.button:hover {
+	/**.button:hover {
   	  background-color: var(--main-bg-color);
-	}
+	}**/
 
 	.footer {
 	position: fixed;
