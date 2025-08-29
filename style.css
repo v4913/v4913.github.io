@@ -36,7 +36,7 @@ h1 {font-family: 'Ubuntu';}
 	html {
    	/**color: var(--main-color);**/
 	background-image: url("https://v4913.github.io/NCS-Dreams.png");
-	background-size: cover;
+	background-size: 100% auto;
 	background-color: var(--main-bg-color);
 	background-repeat: repeat-y;
 	opacity: 1.0;
