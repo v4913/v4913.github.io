@@ -20,13 +20,6 @@
 	--link-color: #fc9fda;
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  min-height: 100vh;  /* at least full viewport height */
-}
-
 h1 {font-family: 'Ubuntu';}
 
 	header {
@@ -43,10 +36,9 @@ h1 {font-family: 'Ubuntu';}
 	html {
    	/**color: var(--main-color);**/
 	background-image: url("https://v4913.github.io/NCS-Dreams.png");
-  	background-repeat: repeat-y;      /* repeat vertically */
-  	background-position: top center;  /* center horizontally */
-  	background-size: 100% auto;       /* stretch width, keep aspect ratio */
-  	background-attachment: scroll;    /* scrolls normally with the page */
+  	background-repeat: no-repeat;      /* repeat vertically */
+  	background-size: cover;       /* stretch width, keep aspect ratio */
+  	background-attachment: fixed;    /* scrolls normally with the page */
 	background-color: var(--main-bg-color);
 	opacity: 1.0;
 	}
