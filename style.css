@@ -16,7 +16,7 @@
 
 :root {
 	--main-bg-color: #0f0000;
-	--main-color: #eb2391;
+	--main-color: #fc9fda; /**darker pink is #eb2391**/
 	--link-color: #fc9fda;
 }
 
@@ -35,10 +35,10 @@ h1 {font-family: 'Ubuntu';}
 	html {
    	/**color: var(--main-color);**/
 	background-image: url("https://v4913.github.io/NCS-Dreams.png");
-	background-size: 100% auto;
+	background-size: cover;
 	background-color: var(--main-bg-color);
-	background-repeat: no-repeat;
-	opacity: 0.9;
+	background-repeat: repeat-y;
+	opacity: 1.0;
 	background-attachment: scroll;
 	background-position: top center;
 	}
