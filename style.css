@@ -23,7 +23,7 @@
 h1 {font-family: 'Ubuntu';}
 
 	nav {
-  	padding: 20px 15px 100px;  /* increases vertical height */
+  	padding: 20px 15px 75px;  /* increases vertical height */
 	}
 
 	header {
@@ -111,7 +111,7 @@ h1 {font-family: 'Ubuntu';}
   	color: var(--main-color);
   	padding: 10px 20px;
 	border: 1px solid var(--main-color);
-	border-radius: 10px;
+	border-radius: 20px;
 	text-decoration: none;
 	}
 
